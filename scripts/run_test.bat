@@ -4,11 +4,7 @@ setlocal enabledelayedexpansion
 REM ==============================
 REM JMeter Home
 REM ==============================
-if "%JMETER_HOME%"=="" (
-  echo JMETER_HOME is not set
-  exit /b 1
-)
-
+set JMETER_HOME=C:\tools\apache-jmeter-5.6.3
 
 REM ==============================
 REM Project Root
