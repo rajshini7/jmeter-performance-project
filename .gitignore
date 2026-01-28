@@ -1,0 +1,6 @@
+results/
+jmeter.log
+*.jtl
+*.zip
+*.tar
+apache-jmeter-*
