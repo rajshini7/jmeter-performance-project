@@ -3,7 +3,7 @@
 A production-ready **API performance testing framework** built using **Apache JMeter**, designed to run **Baseline, Load, Stress, and Spike tests** locally and in **CI pipelines** with rich HTML reports.
 
 ---
-```
+
 
 ## 🚀 Why This Project Exists
 
@@ -18,7 +18,7 @@ This project exists to solve that by providing:
 - A structure that mirrors **real enterprise projects**
 
 ---
-```
+
 
 ## 🧠 Core Concepts
 
@@ -33,7 +33,7 @@ This framework demonstrates the following performance engineering concepts:
 - **Metrics-driven analysis** – Min / Max / Avg / Throughput / Apdex  
 
 ---
-```
+
 
 ## 🧱 Tech Stack
 
@@ -45,7 +45,7 @@ This framework demonstrates the following performance engineering concepts:
 - **GitHub Artifacts for reports**
 
 ---
-```
+
 
 ## 📂 Project Structure
 
@@ -85,6 +85,7 @@ jmeter-performance-project/
 
 
 ## ▶️ How to Run
+
 🔹 Prerequisites
 Java 11 installed
 
@@ -92,16 +93,17 @@ Apache JMeter extracted at:
 
 C:\tools\apache-jmeter-5.6.3
 🔹 Run Locally
-.\scripts\run_test.bat
-This single command will:
+ 
+ .\scripts\run_test.bat
+ 
+ This single command will:
+ 🔹Clean old results
 
-Clean old results
+ 🔹Run Baseline → Load → Stress → Spike
 
-Run Baseline → Load → Stress → Spike
+ 🔹Generate HTML dashboards for each test
 
-Generate HTML dashboards for each test
 
-```
 
 
 ## 🤖 CI / CD Ready
@@ -118,7 +120,7 @@ Reports are uploaded as CI artifacts
 ⚠️ Important:
 Always extract the artifact ZIP before opening index.html to ensure CSS and charts load correctly.
 
-```
+
 
 ## 📊 run_test Report
 Each test generates an Apache JMeter HTML Dashboard containing:
@@ -139,7 +141,7 @@ Reports are available under:
 
 results/reports/<test-name>-report/index.html
 
-``` 
+
 
 ## ✅ What This Framework Is Good At
 ✔ Real-world performance testing
@@ -151,7 +153,7 @@ results/reports/<test-name>-report/index.html
 
 This is not a demo — it’s a foundation-level performance framework.
 
-```
+
 
 ## 👤 Created By
 Rajeev Shrinivas
